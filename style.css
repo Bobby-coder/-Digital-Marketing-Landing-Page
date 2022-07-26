@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Montserrat&family=Orbitron&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-container {
+  width: 100%;
+  height: 20vh;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+  gap: 30px;
+}
+
+.grow-list {
+  margin-left: 50px;
+  margin-right: 42%;
+}
+
+.list .list-item:first-child {
+  opacity: 1;
+  font-weight: 800;
+}
+
+.list-item {
+  list-style-type: none;
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.nav-button {
+  font-size: 15px;
+  padding: 15px 30px;
+  background-color: #5a20cb;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.banner-container {
+  display: flex;
+  margin-left: 100px;
+}
+
+.banner-container div:first-child {
+  width: 30%;
+  margin-top: 50px;
+}
+
+.heading-text {
+  font-size: 60px;
+}
+
+.heading-text span {
+  color: #5a20cb;
+}
+
+.description {
+  width: 90%;
+  opacity: 0.6;
+  margin: 20px 0;
+}
+
+.btn {
+  font-size: 15px;
+  color: #ffffff;
+  padding: 15px 30px;
+  background-color: #5a20cb;
+  border: none;
+  border-radius: 10px;
+  margin: 30px 0;
+  cursor: pointer;
+}
+
+img[alt="illustration"] {
+  width: 1000px;
+  height: 500px;
+}
